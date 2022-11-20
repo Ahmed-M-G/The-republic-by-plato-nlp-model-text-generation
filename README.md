@@ -13,3 +13,11 @@ You need to:
     2. learns the representation at the same time as learning the model.
     3. learns to predict the probability for the next word using the context of the last 100 words.
  3. Try different types of recurrent nodes (GRU, LSTM) and different number of nodes/layers and report how this has affected the results
+
+## Training Models
+ - LSTM
+ - GRU
+ - Simple RNN
+
+## Results
+  ![image](https://user-images.githubusercontent.com/68587770/202897265-df920891-2668-424f-836b-254074a431af.png)
