@@ -9,7 +9,7 @@
 You need to:
  1. Organize the text into sequences each of 50 input words and 1 output word. You will have exactly 118,633 training patterns to fit our model.
  2. Train a statistical language model using a recurrent architecture from the prepared data that
-   a. uses a distributed representation for words so that different words with similar meanings will have a similar representation.
-   b. learns the representation at the same time as learning the model.
-   c. learns to predict the probability for the next word using the context of the last 100 words.
+   1. uses a distributed representation for words so that different words with similar meanings will have a similar representation.
+   2. learns the representation at the same time as learning the model.
+   3. learns to predict the probability for the next word using the context of the last 100 words.
  3. Try different types of recurrent nodes (GRU, LSTM) and different number of nodes/layers and report how this has affected the results
